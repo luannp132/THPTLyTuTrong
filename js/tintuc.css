@@ -1,0 +1,124 @@
+body{
+    padding: 0 20px;
+    /* background: url(../webcon/imghoc/lophoc.jpg); */
+    background-color: rgba(240, 248, 255, 0.592);
+    /* box-shadow: 2px 2px 3px rgb(1, 1, 1); */
+}
+.tren{
+    background-color: rgba(255, 255, 255, 0.833);
+    width: 96%;
+    min-height: 240px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 7px gray;
+    padding-right: 10px;
+}
+#trentd{
+    /* color: rgb(255, 255, 255); */
+    font-size: large;
+    height: 30px;
+    line-height: 30px;
+    /* text-shadow: 0 0 2px rgb(105, 104, 104); */
+}
+#tren{
+    /* color: rgb(3, 3, 3); */
+    font-size: 13px;
+    line-height: 20px;
+}
+.duoi{
+    /* background-color: rgb(75, 128, 128); */
+    width: 100%;
+    min-height: 150px;
+}
+.duoi>.o{
+    /* background-color: beige; */
+    margin-top: 20px;
+    width: 31%;
+    height: 150px;
+    float: left;
+    /* border: 1px solid black; */
+    margin: 15px 10px;
+    background-color: rgb(254, 255, 255);
+}
+.duoi .o:hover{
+    background-color: rgb(221, 239, 255);
+}
+.tren:hover{
+    background-color: rgb(221, 239, 255);
+}
+.tren img{
+    margin-right: 20px;
+}
+.tieude{
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-size: large; */
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-decoration: none;
+    /* background-color: rgb(230, 235, 241); */
+    height: 60px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover .tieude{
+    color: blue;
+}
+.tieude:hover{
+    text-decoration: underline;
+}
+.text{
+    color: gray;
+    font-size: small;
+    margin: 10px;
+    text-align: justify;
+    /* background-color: rgb(247, 252, 252); */
+    
+}
+.text:hover{
+    color: black;
+}
+.duoi .o img{
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 60px;
+}
+.o{
+    box-shadow: 3px 3px 5px rgb(200, 192, 192);
+    border-radius: 3px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.a123{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    word-spacing: 10px;
+    font-weight: bolder;
+    text-shadow: 0 0 1px rgb(133, 153, 161);
+    clear: both;
+}
+.a123 a{
+    color: gray;
+}
+.a123 a:hover{
+    color: black;
+}
+.a123 a:focus{
+    color: blue;
+}
+.duoi .tieude{
+    margin-top: 10px;
+}
+.new{
+    width: 60px;
+    position: absolute;
+    right: 40px;
+    top: 75px;
+}

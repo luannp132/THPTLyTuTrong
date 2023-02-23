@@ -1,0 +1,73 @@
+    
+
+ .lichcuason ul {
+    list-style-type: none;
+  }
+
+   
+ .lichcuason   .month {
+      padding: 40px 30px;
+      width: 284px;
+      background: #096AD9 ;
+      margin: 10px 15px 0 0px;
+  }
+   
+  .lichcuason  .month ul {
+      margin: 0;
+      padding: 0;
+  }
+   
+  .lichcuason  .month ul li {
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+  }
+   
+ .lichcuason   .month .prev {
+      float: left;
+      padding-top: 10px;
+  }
+   
+  .lichcuason  .month .next {
+      float: right;
+      padding-top: 10px;
+  }
+   
+  .lichcuason  .weekdays {
+      margin: 0 15px 0 0px;
+      padding: 10px 0;
+      border: 3px solid #096AD9;
+      border-bottom: 3px solid white;
+  }
+   
+ .lichcuason   .weekdays li {
+      display: inline-block;
+      width: 12%;
+      color: #666;
+      text-align: center;
+  }
+   
+  .lichcuason  .days {
+      margin: auto;
+      padding:  10px 0;
+      margin: 0 15px 0 0px;
+      border: 3px solid #096AD9;
+      border-top: 2px solid #096AD9;
+      /* background-color: #666; */
+  }
+   
+  .lichcuason  .days li {
+      list-style-type: none;
+      display: inline-block;
+      width: 12%;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size:12px;
+      color: #777;
+  }
+   
+   .lichcuason .days li .active {
+      padding: 5px;
+      background: #096AD9;
+      color: white !important;
+  }

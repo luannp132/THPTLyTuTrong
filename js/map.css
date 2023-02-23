@@ -1,0 +1,10 @@
+.map{
+    padding: 0;
+    position: absolute;
+    /* border-bottom: 5px solid rgba(13, 92, 251, 0.897); */
+    /* box-shadow: inset 0 0 20px rgb(5, 5, 5); */
+    bottom: 3px;
+    right: 10px;
+    border-left: 3px double rgb(30, 29, 29) ;
+    padding-left: 65px;
+}

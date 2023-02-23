@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(12, 126, 249, 0.166);
+    /* background: url(../webcon/imghoc/lophoc.jpg); */
+}
+.sanpham{
+    width: 18%;
+    height: 270px;
+    border: 1px solid rgb(206, 202, 202);
+    float: left;
+    margin: 10px 5px;
+    padding: 5px;
+    /* background-color: aliceblue(227, 242, 255); */
+    box-shadow:  1px 1px 1px rgb(182, 178, 178);
+    background-color: aliceblue;
+    position: relative;
+}
+.buy{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    bottom: 0px;
+    right: 10px;
+    /* background-color: white; */
+    border: 0;
+}
+.buy:hover{
+    background-color: rgba(249, 253, 123, 0.367);
+    border-radius: 100px;
+}
+img{
+    width: 95%;
+    height: 200px;
+    /* background-color: aqua; */
+    padding: 0;
+    margin: 5px 5px;
+    border: 1px solid rgb(224, 228, 235);
+}
+.ten{
+    margin: 0 15px;
+    font-weight: bolder;
+    color: rgb(0, 89, 255);
+    font-size: large;
+    margin-top: 10px;
+}
+.gia{
+    margin: 3px 15px;
+    color: rgb(176, 2, 2);
+    font-size: medium;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-size: large;
+}
+h3{
+    background-color: rgba(0, 90, 179, 0.695);
+    line-height: 30px;
+    margin: 30px 5px 10px 5px;
+    padding: 0 0 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-shadow: 1px 1px 2px rgb(129, 116, 116);
+    box-shadow: 1px 1px 2px gray;
+    clear: both;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+.trong{
+    width: 90%;
+    height: 50px;
+    /* background-color: aqua; */
+    clear: both;
+}
+h4{
+    text-align: center;
+    font-size: larger;
+    color: rgb(85, 85, 85);
+}
