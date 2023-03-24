@@ -1,0 +1,33 @@
+.boc{
+    width: 100%;
+    height: 1800px;
+    background: url(../webcon/xehoi/banner100.png);
+    background-size: 100% 100%;
+    margin: 0;
+    position: relative;
+    border: 0 solid black;
+}
+body{
+    margin: -1px 0;
+    padding: 0;
+}
+.text{
+    width: 80%;
+    min-height: 100px;
+    /* margin: 30px 50px; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: rgba(153, 162, 170, 0.338);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+}
+.chu{
+    text-align: justify;
+    font-size: large;
+    line-height: 30px;
+}

@@ -4,7 +4,7 @@ body{
 }
 .sanpham{
     width: 18%;
-    height: 270px;
+    height: 220px;
     border: 1px solid rgb(206, 202, 202);
     float: left;
     margin: 10px 5px;
@@ -29,7 +29,7 @@ body{
 }
 img{
     width: 95%;
-    height: 200px;
+    height: 150px;
     /* background-color: aqua; */
     padding: 0;
     margin: 5px 5px;

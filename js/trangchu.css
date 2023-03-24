@@ -1,253 +1,154 @@
 body{
-    padding: 0px 20px;
+    padding: 0 30px;
+    margin: 0;
+    background-color: rgb(221, 228, 232);
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    /* text-decoration: underline; */
-    margin-bottom: 0;
-}
-.tieude .de{
-    background-color: rgb(38, 150, 230);
-    font-variant: small-caps;
-    height: 30px;
-    font-weight: bold;
-    padding: 5px 10px;
-    color: aliceblue;
-    text-shadow: 1px 1px 1px rgb(154, 124, 124);
-}
-.tieude>div{
+.slide{
     width: 100%;
-    height: 3px;
-    background-color:  rgb(38, 150, 230);
-    margin-top: 1px;
-}
-.tieude{
-    clear: both;
-}
-.trai{
-    width: 40%;
-    /* background-color: aqua; */
-    float: left;
-    padding-top: 10px;
-    min-height: 300px;
-}
-.phai{
-    width: 60%;
-    /* background-color: rgb(45, 97, 97); */
-    float: left;
-    padding-top: 10px;
-    min-height: 300px;
-}
-a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
-    font-weight: bold;
-}
-.trai>a>img{
-    margin-bottom: 5px;
-    width: 100%;
-}
-.trai hr{
-    color: rgb(101, 181, 250);
-    border: solid 1px;
-}
-.trai>a:hover .text{
+    height: 300px;
+    background-color: rgb(161, 216, 243);
+    margin: 30px 0;
+    text-align: center;
+    position: relative;
+    background: url(../webcon/imgxe/banner.jpg);
+    background-size: 100% 100%;
+
     color: blue;
     text-shadow: 0 0 10px rgb(228, 231, 255);
     font-weight: bolder;
     font-size: larger;
 }
-.text:hover{
-    text-decoration: underline;
-}
-.phai .dong{
-    margin: 0 0 15px 25px;
-    box-shadow: 0px 3px 7px rgb(167, 186, 198);
-    min-height: 90px;
-    /* background-color: rgba(173, 232, 255, 0.368);/\ */
-    border-top-left-radius: 15%;
-    border-bottom-right-radius: 05%;
-}
-.phai .dong>a img{
-    width: 20%;
-    height: 90px;
-    margin-right: 15px;
-    border-top-left-radius: 15%;
-}
-.phai .dong .chu{
-    text-decoration: none;
-    color: rgb(130, 127, 127);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: smaller;
-    font-weight: 500;
-}
-.phai .dong .text{
-    margin-bottom: 3px;
-    color: rgb(0, 170, 255);
-    /* text-shadow: 1px 1px 2px rgb(0, 0, 0); */
-}
-.phai .dong:hover .text{
-    color: blue;
-    text-shadow: 0px 0px 0px rgb(0, 0, 0);
-}
-.phai .dong:hover .chu{
-    color: black;
-}
-
-.a1{
-    width: 49%;
-    float: left;
-    padding-top: 10px;
-    min-height: 300px;
-}
-.khung img{
-    clear: both;
-    text-align: center;
-}
-
-.a1 .chu{
-    text-decoration: none;
-    color: rgb(130, 127, 127);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: x-small;
-    font-weight: 500;
-    text-align: justify;
-}
-.a1>div:hover>a{
-    color: blue;
-}
-.a1>div>.chu:hover{
-    color: black;
-}
-.a1>div>a:hover{
-    text-decoration: underline;
-}
-li{
-    line-height: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: rgb(6, 6, 6);
-}
-ul{
-    list-style-type: circle;
-}
-fieldset{
-    border-radius: 10px;
-    border: dotted 2px rgb(0, 183, 255);
-    margin-bottom: 30px;
-}
-fieldset legend{
-    font-variant: small-caps;
+.traiphai{
+    /* position: absolute; */
+    width: 25px;
     height: 30px;
-    font-weight: bold;
-    padding: 5px 10px;
-    color: rgb(36, 139, 230);
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.19);
+    padding: 15px 5px;
+    /* margin: auto; */
 }
-
-
-.dongg{
-    width: 60%;
+.traiphai:hover{
+    background-color: rgba(156, 152, 152, 0.616);
+}
+#trai{
+    position: absolute;
+    left: 0px;
+    top: 110px;
+}
+#phai{
+    position: absolute;
+    right: 0px;
+    top: 110px;
+}
+.khung{
+    width: 100%;
     min-height: 50px;
-    margin-top: 15px;
-    margin-right: 30px;
-    box-shadow: 0px 1px 2px rgb(200, 196, 196);
-    background: url(../webcon/gif/icons8-bookmark.gif) no-repeat 10px center;
-    background-color: white;
-    float: left;
-    padding-left: 90px;
-    line-height: 50px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(176, 22, 22); */
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.134); */
+    clear: both;
 }
-.taixuong{
-    width: 120px;
-    min-height: 50px;  
-    margin-top: 15px;
-    box-shadow: 0px 0px 2px rgb(200, 196, 196);
-    background: url(../webcon/gif/icons8-download-from-the-cloud.gif) no-repeat 8px center;
-    float: left;
-    background-color: white;
-    padding-left: 60px;
-    line-height: 50px;
-}
-.dongg:hover{
-    background-color: rgb(198, 232, 248);
-    color: blue;
-}
-.taixuong:hover{
-    box-shadow: inset 0 0 13px rgb(140, 196, 239);
-    border-radius: 20px;
-}
-.trai .text{
-    /* background-color: rgb(228, 249, 255);; */
-    padding: 10px;
-    margin-top: 5px;
-}
-.trai{
-    background-color: rgb(10, 186, 255);
-    color: aliceblue;
-    padding-top: 0;
+.khung .tieude{
     margin-top: 10px;
+    width: 99%;
+    height: 45px;
+    background-color: white; 
+    box-shadow: 0 0 5px rgba(158, 158, 158, 0.134);
+    margin: 1px; 
+    /* padding: 15px; */
+    color: rgb(120, 120, 120);
+    line-height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
 }
-.trai a{
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 1px rgb(6, 6, 6);
-}
-.trai a:hover{
-    text-shadow: 0 0 0 black;
-}
-.o .onho{
-    width: 30%;
-    min-height: 400px;
+.khung .o a{
+    width: 16.493%;
+    height: 180px;
+    background-color: white; 
+    box-shadow: 0 0 5px rgba(212, 212, 212, 0.06);
+    margin: 1px;
     float: left;
-    /* background-color: aqua; */
-    margin: 0 16px;
-}
-.o .onho h3{
-    margin-top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    /* text-align: center; */
-    color: rgb(11, 6, 104);
-}
-.o img{
-    margin-right: 10px;
-}
-.o .bor{
-    width: 2px;
-    min-height: 400px;
-    float: left;
-    background-color: black;
-    margin-bottom: 30px;
-}
-.o .onho a{
-    font-weight: 500;
     display: block;
-    margin-bottom: 10px;
-    color: rgb(55, 136, 243);
-    font-size: 15px;
-    border-bottom: 1px dotted rgb(208, 203, 203);
+    text-decoration: none;
 }
-.tt{
-    background: url(imgnav/icons8-calendar-16.png) no-repeat 100px 2px ;
-    padding-left: 120px;
-    padding-top: 2px;
-    padding-bottom: 3px;
-    color: rgb(101, 99, 99);
-    font-size: 12px;
-    /* text-align: right; */
+.khung .o img{
+    width: 80%;
+    height: 115px;
+    /* background-color: aqua; */
+    margin: 20px 20px 10px 20px;
+    border-radius: 10px;
 }
-.o .onho a:hover{
-    color: blue;
-    /* text-decoration: underline; */
+.khung .o .text{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
 }
-.o .onho a .tt:hover{
+
+.khung .olon{
+    width: 33.13%;
+    height: 442px;
+    background-color: white; 
+    box-shadow: 0 0 5px rgba(212, 212, 212, 0.06);
+    margin: 1px;
+    float: left;
+    background: url(../webcon/xehoi/banner1.png) no-repeat center center;
+    background-size: 97% 97%;
+}
+.khung .onho a{
+    width: 16.49%;
+    height: 220px;
+    background-color: white; 
+    box-shadow: 0 0 5px rgba(212, 212, 212, 0.06);
+    margin: 1px;
+    float: left;
     text-decoration: none;
     color: black;
 }
-#vn{
-    background-color: rgb(183, 202, 214);
-    /* height: 100px; */
+.olon{
+    position: relative;
+}
+.traiphai1{
+    width: 25px;
+    height: 30px;
+    background-color: rgba(187, 187, 187, 0.348);
+    padding: 15px 5px;
+}
+#trai1{
+    position: absolute;
+    left: 5px;
+    top: 180px;
+}
+#phai1{
+    position: absolute;
+    right: 5px;
+    top: 180px;
+}
+.traiphai1:hover{
+    background-color: rgba(156, 152, 152, 0.616);
+}
+.onho img{
+    margin: 10px;
+    width: 90%;
+    height: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+}
+.onho .ghichu{
+    width: 100%;
+    height: 53px;
+    /* background-color: rgb(32, 113, 140); */
+}
+.onho .ghichu .text{
+    text-align: center;
+    /* margin-left: 11px; */
+    font-weight: bold;
+}
+.onho .i{
+    background-color: rgb(252, 107, 54);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: smaller;
+    line-height: 20px;
+    font-weight: bold;
 }
