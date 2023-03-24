@@ -54,6 +54,9 @@ a{
 }
 .trai>a:hover .text{
     color: blue;
+    text-shadow: 0 0 10px rgb(228, 231, 255);
+    font-weight: bolder;
+    font-size: larger;
 }
 .text:hover{
     text-decoration: underline;
